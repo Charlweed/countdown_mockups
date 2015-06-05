@@ -249,6 +249,7 @@ public class Checklist_form extends javax.swing.JPanel {
         add(jSeparator1);
 
         finishedTaskPanel.setBackground(new java.awt.Color(255, 255, 255));
+        finishedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         finishedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
         finishedTaskPanel.setMinimumSize(new java.awt.Dimension(640, 88));
         finishedTaskPanel.setPreferredSize(new java.awt.Dimension(640, 88));
@@ -256,6 +257,7 @@ public class Checklist_form extends javax.swing.JPanel {
         jTextField9.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField9.setForeground(new java.awt.Color(175, 255, 175));
         jTextField9.setText("Finished Task");
+        jTextField9.setBorder(null);
 
         jCheckBox9.setAlignmentY(0.0F);
         jCheckBox9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Green_Check_Mark_Icon.png"))); // NOI18N
@@ -322,9 +324,9 @@ public class Checklist_form extends javax.swing.JPanel {
                     .addGroup(finishedTaskPanelLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(finishedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jTextField9)
+                            .addComponent(jTextField9, javax.swing.GroupLayout.DEFAULT_SIZE, 70, Short.MAX_VALUE)
                             .addComponent(subtasksPanel0, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(8, Short.MAX_VALUE))
         );
 
         add(finishedTaskPanel);
@@ -362,8 +364,10 @@ public class Checklist_form extends javax.swing.JPanel {
         gridBagConstraints.gridy = 1;
         subtasksPanel1.add(greySpherejLabel2, gridBagConstraints);
 
+        jTextField3.setBackground(new java.awt.Color(237, 255, 246));
         jTextField3.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField3.setText("Current Task");
+        jTextField3.setBorder(null);
 
         javax.swing.GroupLayout currentTaskPanelLayout = new javax.swing.GroupLayout(currentTaskPanel);
         currentTaskPanel.setLayout(currentTaskPanelLayout);
@@ -388,12 +392,14 @@ public class Checklist_form extends javax.swing.JPanel {
         add(currentTaskPanel);
 
         taskPendingPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        taskPendingPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         taskPendingPanel1.setMaximumSize(new java.awt.Dimension(640, 88));
         taskPendingPanel1.setMinimumSize(new java.awt.Dimension(640, 88));
         taskPendingPanel1.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField1.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField1.setText("Pending Task");
+        jTextField1.setBorder(null);
         jTextField1.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField1.setMinimumSize(new java.awt.Dimension(326, 70));
 
@@ -427,12 +433,14 @@ public class Checklist_form extends javax.swing.JPanel {
         add(taskPendingPanel1);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPanel4.setMaximumSize(new java.awt.Dimension(640, 88));
         jPanel4.setMinimumSize(new java.awt.Dimension(640, 88));
         jPanel4.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField4.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField4.setText("Pending Task");
+        jTextField4.setBorder(null);
         jTextField4.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField4.setMinimumSize(new java.awt.Dimension(326, 70));
 
@@ -476,7 +484,7 @@ public class Checklist_form extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 537, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
                 .addComponent(subtasksPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel4Layout.setVerticalGroup(
@@ -484,7 +492,7 @@ public class Checklist_form extends javax.swing.JPanel {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(subtasksPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 76, Short.MAX_VALUE)
+                    .addComponent(subtasksPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -494,12 +502,14 @@ public class Checklist_form extends javax.swing.JPanel {
         add(jPanel4);
 
         jPanel7.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPanel7.setMaximumSize(new java.awt.Dimension(640, 88));
         jPanel7.setMinimumSize(new java.awt.Dimension(640, 88));
         jPanel7.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField7.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField7.setText("Pending Task");
+        jTextField7.setBorder(null);
         jTextField7.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField7.setMinimumSize(new java.awt.Dimension(326, 70));
 
@@ -526,18 +536,20 @@ public class Checklist_form extends javax.swing.JPanel {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(30, 30, 30)
                         .addComponent(jCheckBox7)))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         add(jPanel7);
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPanel5.setMaximumSize(new java.awt.Dimension(640, 88));
         jPanel5.setMinimumSize(new java.awt.Dimension(640, 88));
         jPanel5.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField5.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField5.setText("Pending Task");
+        jTextField5.setBorder(null);
         jTextField5.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField5.setMinimumSize(new java.awt.Dimension(326, 70));
 
@@ -551,7 +563,7 @@ public class Checklist_form extends javax.swing.JPanel {
                 .addContainerGap()
                 .addComponent(jCheckBox5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField5, javax.swing.GroupLayout.DEFAULT_SIZE, 594, Short.MAX_VALUE)
+                .addComponent(jTextField5, javax.swing.GroupLayout.DEFAULT_SIZE, 590, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
@@ -564,20 +576,22 @@ public class Checklist_form extends javax.swing.JPanel {
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(28, 28, 28)
                         .addComponent(jCheckBox5)))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         add(jPanel5);
 
-        abandonedTaskPanel.setBackground(new java.awt.Color(255, 255, 255));
+        abandonedTaskPanel.setBackground(new java.awt.Color(255, 255, 234));
+        abandonedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         abandonedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
         abandonedTaskPanel.setMinimumSize(new java.awt.Dimension(640, 88));
         abandonedTaskPanel.setPreferredSize(new java.awt.Dimension(640, 88));
 
-        jTextField8.setBackground(new java.awt.Color(255, 244, 244));
+        jTextField8.setBackground(new java.awt.Color(255, 255, 234));
         jTextField8.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField8.setForeground(new java.awt.Color(204, 204, 204));
         jTextField8.setText("Abandoned Task");
+        jTextField8.setBorder(null);
 
         jCheckBox8.setAlignmentY(0.0F);
 
@@ -602,26 +616,29 @@ public class Checklist_form extends javax.swing.JPanel {
                     .addGroup(abandonedTaskPanelLayout.createSequentialGroup()
                         .addGap(28, 28, 28)
                         .addComponent(jCheckBox8)))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
         add(abandonedTaskPanel);
 
-        failedTaskPanel.setBackground(new java.awt.Color(255, 255, 255));
+        failedTaskPanel.setBackground(new java.awt.Color(255, 244, 244));
+        failedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         failedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
         failedTaskPanel.setMinimumSize(new java.awt.Dimension(640, 88));
         failedTaskPanel.setPreferredSize(new java.awt.Dimension(640, 88));
 
+        jTextField6.setBackground(new java.awt.Color(255, 244, 244));
         jTextField6.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField6.setForeground(new java.awt.Color(255, 0, 0));
         jTextField6.setText("Failed Task");
+        jTextField6.setBorder(null);
         jTextField6.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField6.setMinimumSize(new java.awt.Dimension(326, 70));
 
         jCheckBox6.setAlignmentY(0.0F);
         jCheckBox6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/RedFail.png"))); // NOI18N
 
-        subtasksPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        subtasksPanel3.setBackground(new java.awt.Color(255, 244, 244));
         subtasksPanel3.setMaximumSize(new java.awt.Dimension(64, 70));
         subtasksPanel3.setMinimumSize(new java.awt.Dimension(64, 70));
         subtasksPanel3.setSize(new java.awt.Dimension(64, 70));
@@ -670,18 +687,20 @@ public class Checklist_form extends javax.swing.JPanel {
                     .addGroup(failedTaskPanelLayout.createSequentialGroup()
                         .addGap(22, 22, 22)
                         .addComponent(jCheckBox6)))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(8, Short.MAX_VALUE))
         );
 
         add(failedTaskPanel);
 
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPanel11.setMaximumSize(new java.awt.Dimension(640, 88));
         jPanel11.setMinimumSize(new java.awt.Dimension(640, 88));
         jPanel11.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField11.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField11.setText("Pending Task");
+        jTextField11.setBorder(null);
 
         subtasksPanel4.setBackground(new java.awt.Color(255, 255, 255));
         subtasksPanel4.setMaximumSize(new java.awt.Dimension(64, 70));
@@ -707,7 +726,7 @@ public class Checklist_form extends javax.swing.JPanel {
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
                 .addGap(40, 40, 40)
-                .addComponent(jTextField11, javax.swing.GroupLayout.DEFAULT_SIZE, 556, Short.MAX_VALUE)
+                .addComponent(jTextField11, javax.swing.GroupLayout.DEFAULT_SIZE, 552, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(subtasksPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -717,7 +736,7 @@ public class Checklist_form extends javax.swing.JPanel {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(subtasksPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 76, Short.MAX_VALUE)
+                    .addComponent(subtasksPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -727,12 +746,14 @@ public class Checklist_form extends javax.swing.JPanel {
         add(jPanel11);
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPanel12.setMaximumSize(new java.awt.Dimension(640, 88));
         jPanel12.setMinimumSize(new java.awt.Dimension(640, 88));
         jPanel12.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField12.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField12.setText("Pending Task");
+        jTextField12.setBorder(null);
 
         jCheckBox12.setAlignmentY(0.0F);
 
@@ -762,7 +783,7 @@ public class Checklist_form extends javax.swing.JPanel {
                 .addContainerGap()
                 .addComponent(jCheckBox12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField12, javax.swing.GroupLayout.DEFAULT_SIZE, 562, Short.MAX_VALUE)
+                .addComponent(jTextField12, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(subtasksPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -775,17 +796,19 @@ public class Checklist_form extends javax.swing.JPanel {
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(subtasksPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE)
+                    .addComponent(subtasksPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, 71, Short.MAX_VALUE)
                     .addComponent(jTextField12, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(9, Short.MAX_VALUE))
+                .addContainerGap(7, Short.MAX_VALUE))
         );
 
         add(jPanel12);
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jTextField10.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField10.setText("Pending Task");
+        jTextField10.setBorder(null);
 
         subtasksPanel6.setBackground(new java.awt.Color(255, 255, 255));
         subtasksPanel6.setMaximumSize(new java.awt.Dimension(64, 70));
