@@ -51,6 +51,14 @@ public class TaskDetail extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
         secVal2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        stepPanelA = new javax.swing.JPanel();
+        stepLabel1 = new javax.swing.JLabel();
+        stepPanelB = new javax.swing.JPanel();
+        stepLabel = new javax.swing.JLabel();
+        stepPanelC = new javax.swing.JPanel();
+        stepLabel2 = new javax.swing.JLabel();
+        stepPanelD = new javax.swing.JPanel();
+        stepLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setMaximumSize(new java.awt.Dimension(640, 1136));
@@ -240,6 +248,98 @@ public class TaskDetail extends javax.swing.JPanel {
                         .addComponent(dueLabel))))
         );
 
+        stepPanelA.setBackground(new java.awt.Color(255, 255, 255));
+        stepPanelA.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+
+        stepLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        stepLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_a.png"))); // NOI18N
+
+        javax.swing.GroupLayout stepPanelALayout = new javax.swing.GroupLayout(stepPanelA);
+        stepPanelA.setLayout(stepPanelALayout);
+        stepPanelALayout.setHorizontalGroup(
+            stepPanelALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelALayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        stepPanelALayout.setVerticalGroup(
+            stepPanelALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelALayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        stepPanelB.setBackground(new java.awt.Color(255, 255, 255));
+        stepPanelB.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+
+        stepLabel.setBackground(new java.awt.Color(255, 255, 255));
+        stepLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_b.png"))); // NOI18N
+
+        javax.swing.GroupLayout stepPanelBLayout = new javax.swing.GroupLayout(stepPanelB);
+        stepPanelB.setLayout(stepPanelBLayout);
+        stepPanelBLayout.setHorizontalGroup(
+            stepPanelBLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelBLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        stepPanelBLayout.setVerticalGroup(
+            stepPanelBLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelBLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        stepPanelC.setBackground(new java.awt.Color(255, 255, 255));
+        stepPanelC.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+
+        stepLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        stepLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_c.png"))); // NOI18N
+
+        javax.swing.GroupLayout stepPanelCLayout = new javax.swing.GroupLayout(stepPanelC);
+        stepPanelC.setLayout(stepPanelCLayout);
+        stepPanelCLayout.setHorizontalGroup(
+            stepPanelCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelCLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        stepPanelCLayout.setVerticalGroup(
+            stepPanelCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelCLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        stepPanelD.setBackground(new java.awt.Color(255, 255, 255));
+        stepPanelD.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+
+        stepLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        stepLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_d.png"))); // NOI18N
+
+        javax.swing.GroupLayout stepPanelDLayout = new javax.swing.GroupLayout(stepPanelD);
+        stepPanelD.setLayout(stepPanelDLayout);
+        stepPanelDLayout.setHorizontalGroup(
+            stepPanelDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelDLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        stepPanelDLayout.setVerticalGroup(
+            stepPanelDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(stepPanelDLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(stepLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -247,12 +347,16 @@ public class TaskDetail extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 628, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
                         .addComponent(durationPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(duePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(duePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(stepPanelA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 628, Short.MAX_VALUE))
+                    .addComponent(stepPanelB, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(stepPanelC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(stepPanelD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -264,7 +368,15 @@ public class TaskDetail extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(durationPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(duePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(1007, Short.MAX_VALUE))
+                .addGap(25, 25, 25)
+                .addComponent(stepPanelA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(stepPanelB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(stepPanelC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(stepPanelD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(534, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -293,5 +405,13 @@ public class TaskDetail extends javax.swing.JPanel {
     private javax.swing.JLabel minusLable;
     private javax.swing.JLabel secVal;
     private javax.swing.JLabel secVal2;
+    private javax.swing.JLabel stepLabel;
+    private javax.swing.JLabel stepLabel1;
+    private javax.swing.JLabel stepLabel2;
+    private javax.swing.JLabel stepLabel3;
+    private javax.swing.JPanel stepPanelA;
+    private javax.swing.JPanel stepPanelB;
+    private javax.swing.JPanel stepPanelC;
+    private javax.swing.JPanel stepPanelD;
     // End of variables declaration//GEN-END:variables
 }
