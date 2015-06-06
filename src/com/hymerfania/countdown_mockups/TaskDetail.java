@@ -53,12 +53,20 @@ public class TaskDetail extends javax.swing.JPanel {
         jLabel3 = new javax.swing.JLabel();
         stepPanelA = new javax.swing.JPanel();
         stepLabel1 = new javax.swing.JLabel();
+        jCheckBox9 = new javax.swing.JCheckBox();
+        jLabel5 = new javax.swing.JLabel();
         stepPanelB = new javax.swing.JPanel();
         stepLabel = new javax.swing.JLabel();
+        jCheckBox10 = new javax.swing.JCheckBox();
+        jLabel8 = new javax.swing.JLabel();
         stepPanelC = new javax.swing.JPanel();
         stepLabel2 = new javax.swing.JLabel();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jLabel9 = new javax.swing.JLabel();
         stepPanelD = new javax.swing.JPanel();
         stepLabel3 = new javax.swing.JLabel();
+        jCheckBox2 = new javax.swing.JCheckBox();
+        jLabel14 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setMaximumSize(new java.awt.Dimension(640, 1136));
@@ -254,20 +262,38 @@ public class TaskDetail extends javax.swing.JPanel {
         stepLabel1.setBackground(new java.awt.Color(255, 255, 255));
         stepLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_a.png"))); // NOI18N
 
+        jCheckBox9.setAlignmentY(0.0F);
+        jCheckBox9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Green_Check_Mark_Icon.png"))); // NOI18N
+
+        jLabel5.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        jLabel5.setText("Pack recovery wadding");
+
         javax.swing.GroupLayout stepPanelALayout = new javax.swing.GroupLayout(stepPanelA);
         stepPanelA.setLayout(stepPanelALayout);
         stepPanelALayout.setHorizontalGroup(
             stepPanelALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(stepPanelALayout.createSequentialGroup()
                 .addContainerGap()
+                .addComponent(jCheckBox9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(stepLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(36, 36, 36))
         );
         stepPanelALayout.setVerticalGroup(
             stepPanelALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stepPanelALayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(stepPanelALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(stepLabel1)
+                    .addGroup(stepPanelALayout.createSequentialGroup()
+                        .addGap(26, 26, 26)
+                        .addComponent(jCheckBox9)))
+                .addGap(132, 132, 132))
             .addGroup(stepPanelALayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(stepLabel1)
+                .addGap(37, 37, 37)
+                .addComponent(jLabel5)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -277,21 +303,40 @@ public class TaskDetail extends javax.swing.JPanel {
         stepLabel.setBackground(new java.awt.Color(255, 255, 255));
         stepLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_b.png"))); // NOI18N
 
+        jCheckBox10.setAlignmentY(0.0F);
+        jCheckBox10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Green_Check_Mark_Icon.png"))); // NOI18N
+
+        jLabel8.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        jLabel8.setText("Form parachute into spike");
+
         javax.swing.GroupLayout stepPanelBLayout = new javax.swing.GroupLayout(stepPanelB);
         stepPanelB.setLayout(stepPanelBLayout);
         stepPanelBLayout.setHorizontalGroup(
             stepPanelBLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(stepPanelBLayout.createSequentialGroup()
                 .addContainerGap()
+                .addComponent(jCheckBox10)
+                .addGap(5, 5, 5)
                 .addComponent(stepLabel)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(39, 39, 39))
         );
         stepPanelBLayout.setVerticalGroup(
             stepPanelBLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(stepPanelBLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(stepLabel)
+                .addGap(37, 37, 37)
+                .addComponent(jCheckBox10)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stepPanelBLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(stepPanelBLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stepPanelBLayout.createSequentialGroup()
+                        .addComponent(stepLabel)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stepPanelBLayout.createSequentialGroup()
+                        .addComponent(jLabel8)
+                        .addGap(38, 38, 38))))
         );
 
         stepPanelC.setBackground(new java.awt.Color(255, 255, 255));
@@ -300,20 +345,35 @@ public class TaskDetail extends javax.swing.JPanel {
         stepLabel2.setBackground(new java.awt.Color(255, 255, 255));
         stepLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_c.png"))); // NOI18N
 
+        jLabel9.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel9.setText("Fold parachute spike tip to center shroud line");
+
         javax.swing.GroupLayout stepPanelCLayout = new javax.swing.GroupLayout(stepPanelC);
         stepPanelC.setLayout(stepPanelCLayout);
         stepPanelCLayout.setHorizontalGroup(
             stepPanelCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(stepPanelCLayout.createSequentialGroup()
-                .addContainerGap()
+                .addComponent(jCheckBox1)
+                .addGap(27, 27, 27)
                 .addComponent(stepLabel2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         stepPanelCLayout.setVerticalGroup(
             stepPanelCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(stepPanelCLayout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stepPanelCLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(stepLabel2)
+                .addGap(68, 68, 68))
+            .addGroup(stepPanelCLayout.createSequentialGroup()
+                .addGroup(stepPanelCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(stepPanelCLayout.createSequentialGroup()
+                        .addGap(43, 43, 43)
+                        .addComponent(jCheckBox1))
+                    .addGroup(stepPanelCLayout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(jLabel9)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -323,21 +383,35 @@ public class TaskDetail extends javax.swing.JPanel {
         stepLabel3.setBackground(new java.awt.Color(255, 255, 255));
         stepLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/parachute_d.png"))); // NOI18N
 
+        jLabel14.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        jLabel14.setText("Roll parachute edges up into roll");
+
         javax.swing.GroupLayout stepPanelDLayout = new javax.swing.GroupLayout(stepPanelD);
         stepPanelD.setLayout(stepPanelDLayout);
         stepPanelDLayout.setHorizontalGroup(
             stepPanelDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(stepPanelDLayout.createSequentialGroup()
-                .addContainerGap()
+                .addComponent(jCheckBox2)
+                .addGap(18, 18, 18)
                 .addComponent(stepLabel3)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(70, 70, 70))
         );
         stepPanelDLayout.setVerticalGroup(
             stepPanelDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(stepPanelDLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(stepLabel3)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(stepPanelDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(stepPanelDLayout.createSequentialGroup()
+                        .addGap(45, 45, 45)
+                        .addComponent(jCheckBox2))
+                    .addGroup(stepPanelDLayout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addComponent(stepLabel3))
+                    .addGroup(stepPanelDLayout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addComponent(jLabel14)))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -351,11 +425,11 @@ public class TaskDetail extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(duePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addComponent(stepPanelA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(stepPanelB, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(stepPanelC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 628, Short.MAX_VALUE))
-                    .addComponent(stepPanelB, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(stepPanelC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(stepPanelD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -369,14 +443,14 @@ public class TaskDetail extends javax.swing.JPanel {
                     .addComponent(durationPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(duePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(25, 25, 25)
-                .addComponent(stepPanelA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(stepPanelB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(stepPanelC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(stepPanelA, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(stepPanelB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(stepPanelC, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(stepPanelD, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(534, Short.MAX_VALUE))
+                .addContainerGap(501, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -391,15 +465,23 @@ public class TaskDetail extends javax.swing.JPanel {
     private javax.swing.JPanel durationTimePanel;
     private javax.swing.JLabel hrlVal;
     private javax.swing.JLabel hrlVal2;
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBox10;
+    private javax.swing.JCheckBox jCheckBox2;
+    private javax.swing.JCheckBox jCheckBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel minVal;
     private javax.swing.JLabel minVal2;
     private javax.swing.JLabel minusLable;
