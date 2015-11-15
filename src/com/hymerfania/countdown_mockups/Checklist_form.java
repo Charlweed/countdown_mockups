@@ -43,6 +43,17 @@ public class Checklist_form extends javax.swing.JPanel {
         colon2 = new javax.swing.JLabel();
         colon3 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
+        abandonedTaskPanel = new javax.swing.JPanel();
+        jTextField8 = new javax.swing.JTextField();
+        jCheckBox8 = new javax.swing.JCheckBox();
+        failedTaskPanel = new javax.swing.JPanel();
+        jTextField6 = new javax.swing.JTextField();
+        jCheckBox6 = new javax.swing.JCheckBox();
+        subtasksPanel3 = new javax.swing.JPanel();
+        greenSpherejLabel15 = new javax.swing.JLabel();
+        greenSpherejLabel16 = new javax.swing.JLabel();
+        greySpherejLabel4 = new javax.swing.JLabel();
+        greySpherejLabel5 = new javax.swing.JLabel();
         finishedTaskPanel = new javax.swing.JPanel();
         jTextField9 = new javax.swing.JTextField();
         jCheckBox9 = new javax.swing.JCheckBox();
@@ -80,29 +91,18 @@ public class Checklist_form extends javax.swing.JPanel {
         jPanel5 = new javax.swing.JPanel();
         jTextField5 = new javax.swing.JTextField();
         jCheckBox5 = new javax.swing.JCheckBox();
-        abandonedTaskPanel = new javax.swing.JPanel();
-        jTextField8 = new javax.swing.JTextField();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        failedTaskPanel = new javax.swing.JPanel();
-        jTextField6 = new javax.swing.JTextField();
-        jCheckBox6 = new javax.swing.JCheckBox();
-        subtasksPanel3 = new javax.swing.JPanel();
-        greenSpherejLabel15 = new javax.swing.JLabel();
-        greenSpherejLabel16 = new javax.swing.JLabel();
-        greySpherejLabel4 = new javax.swing.JLabel();
-        greySpherejLabel5 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
-        jTextField11 = new javax.swing.JTextField();
-        subtasksPanel4 = new javax.swing.JPanel();
-        greenSpherejLabel17 = new javax.swing.JLabel();
-        greenSpherejLabel18 = new javax.swing.JLabel();
-        greenSpherejLabel20 = new javax.swing.JLabel();
         jPanel12 = new javax.swing.JPanel();
         jTextField12 = new javax.swing.JTextField();
         jCheckBox12 = new javax.swing.JCheckBox();
         subtasksPanel5 = new javax.swing.JPanel();
         greySpherejLabel02 = new javax.swing.JLabel();
         greySpherejLabel3 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jTextField11 = new javax.swing.JTextField();
+        subtasksPanel4 = new javax.swing.JPanel();
+        greenSpherejLabel17 = new javax.swing.JLabel();
+        greenSpherejLabel18 = new javax.swing.JLabel();
+        greenSpherejLabel20 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         jTextField10 = new javax.swing.JTextField();
         subtasksPanel6 = new javax.swing.JPanel();
@@ -248,6 +248,115 @@ public class Checklist_form extends javax.swing.JPanel {
         jSeparator1.setPreferredSize(new java.awt.Dimension(640, 12));
         add(jSeparator1);
 
+        abandonedTaskPanel.setBackground(new java.awt.Color(255, 255, 234));
+        abandonedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+        abandonedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
+        abandonedTaskPanel.setMinimumSize(new java.awt.Dimension(640, 88));
+        abandonedTaskPanel.setPreferredSize(new java.awt.Dimension(640, 88));
+
+        jTextField8.setBackground(new java.awt.Color(255, 255, 234));
+        jTextField8.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jTextField8.setForeground(new java.awt.Color(204, 204, 204));
+        jTextField8.setText("Configure Camera");
+        jTextField8.setBorder(null);
+
+        jCheckBox8.setAlignmentY(0.0F);
+
+        javax.swing.GroupLayout abandonedTaskPanelLayout = new javax.swing.GroupLayout(abandonedTaskPanel);
+        abandonedTaskPanel.setLayout(abandonedTaskPanelLayout);
+        abandonedTaskPanelLayout.setHorizontalGroup(
+            abandonedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, abandonedTaskPanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jCheckBox8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 593, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(74, 74, 74))
+        );
+        abandonedTaskPanelLayout.setVerticalGroup(
+            abandonedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(abandonedTaskPanelLayout.createSequentialGroup()
+                .addGroup(abandonedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(abandonedTaskPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(abandonedTaskPanelLayout.createSequentialGroup()
+                        .addGap(28, 28, 28)
+                        .addComponent(jCheckBox8)))
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+
+        add(abandonedTaskPanel);
+
+        failedTaskPanel.setBackground(new java.awt.Color(255, 244, 244));
+        failedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+        failedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
+        failedTaskPanel.setMinimumSize(new java.awt.Dimension(640, 88));
+        failedTaskPanel.setPreferredSize(new java.awt.Dimension(640, 88));
+
+        jTextField6.setBackground(new java.awt.Color(255, 244, 244));
+        jTextField6.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jTextField6.setForeground(new java.awt.Color(255, 0, 0));
+        jTextField6.setText("Check Wind Speed");
+        jTextField6.setBorder(null);
+        jTextField6.setMaximumSize(new java.awt.Dimension(326, 70));
+        jTextField6.setMinimumSize(new java.awt.Dimension(326, 70));
+
+        jCheckBox6.setAlignmentY(0.0F);
+        jCheckBox6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/RedFail.png"))); // NOI18N
+
+        subtasksPanel3.setBackground(new java.awt.Color(255, 244, 244));
+        subtasksPanel3.setMaximumSize(new java.awt.Dimension(64, 70));
+        subtasksPanel3.setMinimumSize(new java.awt.Dimension(64, 70));
+        subtasksPanel3.setSize(new java.awt.Dimension(64, 70));
+        subtasksPanel3.setLayout(new java.awt.GridBagLayout());
+
+        greenSpherejLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
+        subtasksPanel3.add(greenSpherejLabel15, new java.awt.GridBagConstraints());
+
+        greenSpherejLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
+        subtasksPanel3.add(greenSpherejLabel16, new java.awt.GridBagConstraints());
+
+        greySpherejLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/draw-sphere-icone-9132-16.png"))); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        subtasksPanel3.add(greySpherejLabel4, gridBagConstraints);
+
+        greySpherejLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/SphereRed.gif"))); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        subtasksPanel3.add(greySpherejLabel5, gridBagConstraints);
+
+        javax.swing.GroupLayout failedTaskPanelLayout = new javax.swing.GroupLayout(failedTaskPanel);
+        failedTaskPanel.setLayout(failedTaskPanelLayout);
+        failedTaskPanelLayout.setHorizontalGroup(
+            failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, failedTaskPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jCheckBox6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 531, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(subtasksPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        failedTaskPanelLayout.setVerticalGroup(
+            failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(failedTaskPanelLayout.createSequentialGroup()
+                .addGroup(failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(subtasksPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(failedTaskPanelLayout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(jCheckBox6)))
+                .addContainerGap(8, Short.MAX_VALUE))
+        );
+
+        add(failedTaskPanel);
+
         finishedTaskPanel.setBackground(new java.awt.Color(255, 255, 255));
         finishedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         finishedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
@@ -256,7 +365,7 @@ public class Checklist_form extends javax.swing.JPanel {
 
         jTextField9.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
         jTextField9.setForeground(new java.awt.Color(175, 255, 175));
-        jTextField9.setText("Finished Task");
+        jTextField9.setText("Inspect Parachute");
         jTextField9.setBorder(null);
 
         jCheckBox9.setAlignmentY(0.0F);
@@ -269,9 +378,6 @@ public class Checklist_form extends javax.swing.JPanel {
         subtasksPanel0.setLayout(new java.awt.GridBagLayout());
 
         greenSpherejLabel0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
-        greenSpherejLabel0.setMaximumSize(new java.awt.Dimension(16, 16));
-        greenSpherejLabel0.setMinimumSize(new java.awt.Dimension(16, 16));
-        greenSpherejLabel0.setPreferredSize(new java.awt.Dimension(16, 16));
         subtasksPanel0.add(greenSpherejLabel0, new java.awt.GridBagConstraints());
 
         greenSpherejLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
@@ -366,7 +472,7 @@ public class Checklist_form extends javax.swing.JPanel {
 
         jTextField3.setBackground(new java.awt.Color(237, 255, 246));
         jTextField3.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField3.setText("Current Task");
+        jTextField3.setText("Pack Parachute");
         jTextField3.setBorder(null);
 
         javax.swing.GroupLayout currentTaskPanelLayout = new javax.swing.GroupLayout(currentTaskPanel);
@@ -398,7 +504,7 @@ public class Checklist_form extends javax.swing.JPanel {
         taskPendingPanel1.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField1.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField1.setText("Pending Task");
+        jTextField1.setText("Fit Nose cone");
         jTextField1.setBorder(null);
         jTextField1.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField1.setMinimumSize(new java.awt.Dimension(326, 70));
@@ -439,7 +545,7 @@ public class Checklist_form extends javax.swing.JPanel {
         jPanel4.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField4.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField4.setText("Pending Task");
+        jTextField4.setText("Inspect Motor");
         jTextField4.setBorder(null);
         jTextField4.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField4.setMinimumSize(new java.awt.Dimension(326, 70));
@@ -508,7 +614,7 @@ public class Checklist_form extends javax.swing.JPanel {
         jPanel7.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField7.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField7.setText("Pending Task");
+        jTextField7.setText("Mount Motor");
         jTextField7.setBorder(null);
         jTextField7.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField7.setMinimumSize(new java.awt.Dimension(326, 70));
@@ -548,7 +654,7 @@ public class Checklist_form extends javax.swing.JPanel {
         jPanel5.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField5.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField5.setText("Pending Task");
+        jTextField5.setText("Complete Launch form");
         jTextField5.setBorder(null);
         jTextField5.setMaximumSize(new java.awt.Dimension(326, 70));
         jTextField5.setMinimumSize(new java.awt.Dimension(326, 70));
@@ -581,170 +687,6 @@ public class Checklist_form extends javax.swing.JPanel {
 
         add(jPanel5);
 
-        abandonedTaskPanel.setBackground(new java.awt.Color(255, 255, 234));
-        abandonedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
-        abandonedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
-        abandonedTaskPanel.setMinimumSize(new java.awt.Dimension(640, 88));
-        abandonedTaskPanel.setPreferredSize(new java.awt.Dimension(640, 88));
-
-        jTextField8.setBackground(new java.awt.Color(255, 255, 234));
-        jTextField8.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField8.setForeground(new java.awt.Color(204, 204, 204));
-        jTextField8.setText("Abandoned Task");
-        jTextField8.setBorder(null);
-
-        jCheckBox8.setAlignmentY(0.0F);
-
-        javax.swing.GroupLayout abandonedTaskPanelLayout = new javax.swing.GroupLayout(abandonedTaskPanel);
-        abandonedTaskPanel.setLayout(abandonedTaskPanelLayout);
-        abandonedTaskPanelLayout.setHorizontalGroup(
-            abandonedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, abandonedTaskPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jCheckBox8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 593, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(74, 74, 74))
-        );
-        abandonedTaskPanelLayout.setVerticalGroup(
-            abandonedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(abandonedTaskPanelLayout.createSequentialGroup()
-                .addGroup(abandonedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(abandonedTaskPanelLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(abandonedTaskPanelLayout.createSequentialGroup()
-                        .addGap(28, 28, 28)
-                        .addComponent(jCheckBox8)))
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
-
-        add(abandonedTaskPanel);
-
-        failedTaskPanel.setBackground(new java.awt.Color(255, 244, 244));
-        failedTaskPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
-        failedTaskPanel.setMaximumSize(new java.awt.Dimension(640, 88));
-        failedTaskPanel.setMinimumSize(new java.awt.Dimension(640, 88));
-        failedTaskPanel.setPreferredSize(new java.awt.Dimension(640, 88));
-
-        jTextField6.setBackground(new java.awt.Color(255, 244, 244));
-        jTextField6.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField6.setForeground(new java.awt.Color(255, 0, 0));
-        jTextField6.setText("Failed Task");
-        jTextField6.setBorder(null);
-        jTextField6.setMaximumSize(new java.awt.Dimension(326, 70));
-        jTextField6.setMinimumSize(new java.awt.Dimension(326, 70));
-
-        jCheckBox6.setAlignmentY(0.0F);
-        jCheckBox6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/RedFail.png"))); // NOI18N
-
-        subtasksPanel3.setBackground(new java.awt.Color(255, 244, 244));
-        subtasksPanel3.setMaximumSize(new java.awt.Dimension(64, 70));
-        subtasksPanel3.setMinimumSize(new java.awt.Dimension(64, 70));
-        subtasksPanel3.setSize(new java.awt.Dimension(64, 70));
-        subtasksPanel3.setLayout(new java.awt.GridBagLayout());
-
-        greenSpherejLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
-        subtasksPanel3.add(greenSpherejLabel15, new java.awt.GridBagConstraints());
-
-        greenSpherejLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
-        subtasksPanel3.add(greenSpherejLabel16, new java.awt.GridBagConstraints());
-
-        greySpherejLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/draw-sphere-icone-9132-16.png"))); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 1;
-        subtasksPanel3.add(greySpherejLabel4, gridBagConstraints);
-
-        greySpherejLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/SphereRed.gif"))); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
-        subtasksPanel3.add(greySpherejLabel5, gridBagConstraints);
-
-        javax.swing.GroupLayout failedTaskPanelLayout = new javax.swing.GroupLayout(failedTaskPanel);
-        failedTaskPanel.setLayout(failedTaskPanelLayout);
-        failedTaskPanelLayout.setHorizontalGroup(
-            failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, failedTaskPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jCheckBox6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 531, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(subtasksPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        failedTaskPanelLayout.setVerticalGroup(
-            failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(failedTaskPanelLayout.createSequentialGroup()
-                .addGroup(failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(failedTaskPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(subtasksPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(failedTaskPanelLayout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(failedTaskPanelLayout.createSequentialGroup()
-                        .addGap(22, 22, 22)
-                        .addComponent(jCheckBox6)))
-                .addContainerGap(8, Short.MAX_VALUE))
-        );
-
-        add(failedTaskPanel);
-
-        jPanel11.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
-        jPanel11.setMaximumSize(new java.awt.Dimension(640, 88));
-        jPanel11.setMinimumSize(new java.awt.Dimension(640, 88));
-        jPanel11.setPreferredSize(new java.awt.Dimension(640, 88));
-
-        jTextField11.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField11.setText("Pending Task");
-        jTextField11.setBorder(null);
-
-        subtasksPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        subtasksPanel4.setMaximumSize(new java.awt.Dimension(64, 70));
-        subtasksPanel4.setMinimumSize(new java.awt.Dimension(64, 70));
-        subtasksPanel4.setSize(new java.awt.Dimension(64, 70));
-        subtasksPanel4.setLayout(new java.awt.GridBagLayout());
-
-        greenSpherejLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
-        subtasksPanel4.add(greenSpherejLabel17, new java.awt.GridBagConstraints());
-
-        greenSpherejLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
-        subtasksPanel4.add(greenSpherejLabel18, new java.awt.GridBagConstraints());
-
-        greenSpherejLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/draw-sphere-icone-9132-16.png"))); // NOI18N
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 1;
-        subtasksPanel4.add(greenSpherejLabel20, gridBagConstraints);
-
-        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
-        jPanel11.setLayout(jPanel11Layout);
-        jPanel11Layout.setHorizontalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addComponent(jTextField11, javax.swing.GroupLayout.DEFAULT_SIZE, 552, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(subtasksPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        jPanel11Layout.setVerticalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel11Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(subtasksPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
-                    .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-
-        add(jPanel11);
-
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
         jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPanel12.setMaximumSize(new java.awt.Dimension(640, 88));
@@ -752,7 +694,7 @@ public class Checklist_form extends javax.swing.JPanel {
         jPanel12.setPreferredSize(new java.awt.Dimension(640, 88));
 
         jTextField12.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField12.setText("Pending Task");
+        jTextField12.setText("Check launch guides");
         jTextField12.setBorder(null);
 
         jCheckBox12.setAlignmentY(0.0F);
@@ -803,11 +745,64 @@ public class Checklist_form extends javax.swing.JPanel {
 
         add(jPanel12);
 
+        jPanel11.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+        jPanel11.setMaximumSize(new java.awt.Dimension(640, 88));
+        jPanel11.setMinimumSize(new java.awt.Dimension(640, 88));
+        jPanel11.setPreferredSize(new java.awt.Dimension(640, 88));
+
+        jTextField11.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
+        jTextField11.setText("Request Launch Pad");
+        jTextField11.setBorder(null);
+
+        subtasksPanel4.setBackground(new java.awt.Color(255, 255, 255));
+        subtasksPanel4.setMaximumSize(new java.awt.Dimension(64, 70));
+        subtasksPanel4.setMinimumSize(new java.awt.Dimension(64, 70));
+        subtasksPanel4.setSize(new java.awt.Dimension(64, 70));
+        subtasksPanel4.setLayout(new java.awt.GridBagLayout());
+
+        greenSpherejLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
+        subtasksPanel4.add(greenSpherejLabel17, new java.awt.GridBagConstraints());
+
+        greenSpherejLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/Sphere_Green_16.png"))); // NOI18N
+        subtasksPanel4.add(greenSpherejLabel18, new java.awt.GridBagConstraints());
+
+        greenSpherejLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/hymerfania/countdown_mockups/resources/draw-sphere-icone-9132-16.png"))); // NOI18N
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        subtasksPanel4.add(greenSpherejLabel20, gridBagConstraints);
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                .addGap(40, 40, 40)
+                .addComponent(jTextField11, javax.swing.GroupLayout.DEFAULT_SIZE, 552, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(subtasksPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(subtasksPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        add(jPanel11);
+
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jTextField10.setFont(new java.awt.Font("Lucida Grande", 0, 48)); // NOI18N
-        jTextField10.setText("Pending Task");
+        jTextField10.setText("Move vehicle to pad");
         jTextField10.setBorder(null);
 
         subtasksPanel6.setBackground(new java.awt.Color(255, 255, 255));
@@ -896,9 +891,6 @@ public class Checklist_form extends javax.swing.JPanel {
     private javax.swing.JLabel hrsval;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox12;
-    private javax.swing.JCheckBox jCheckBox13;
-    private javax.swing.JCheckBox jCheckBox14;
-    private javax.swing.JCheckBox jCheckBox15;
     private javax.swing.JCheckBox jCheckBox5;
     private javax.swing.JCheckBox jCheckBox6;
     private javax.swing.JCheckBox jCheckBox7;
@@ -907,9 +899,6 @@ public class Checklist_form extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel7;
@@ -918,9 +907,6 @@ public class Checklist_form extends javax.swing.JPanel {
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
